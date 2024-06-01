@@ -8,7 +8,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
+  max-width: 900px;
 
   .inner {
     display: flex;
@@ -19,7 +19,7 @@ const StyledJobsSection = styled.section`
 
     // Prevent container from jumping
     @media (min-width: 700px) {
-      min-height: 340px;
+      min-height: 585px;
     }
   }
 `;
@@ -246,7 +246,8 @@ const Jobs = () => {
     <StyledJobsSection id="jobs" ref={revealContainer}>
       <h2 className="numbered-heading">Where I’ve Worked</h2>
 
-      <div className="inner">
+        <h3>I'm actively looking for a Summer Intership as of now because I'll be in my final year soon...</h3>
+      {/* <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
           {jobsData &&
             jobsData.map(({ node }, i) => {
@@ -302,7 +303,7 @@ const Jobs = () => {
               );
             })}
         </StyledTabPanels>
-      </div>
+      </div> */}
     </StyledJobsSection>
   );
 };

@@ -65,7 +65,8 @@ const StyledCredit = styled.div`
       height: 14px;
     }
   }
-`;
+  `;
+  
 
 const Footer = () => {
   const [githubInfo, setGitHubInfo] = useState({
@@ -104,9 +105,9 @@ const Footer = () => {
         </ul>
       </StyledSocialLinks>
 
+            
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed &amp; Built by Brittany Chiang</div>
+          <div>Credits to<a href="https://github.com/bchiang7?tab=overview&from=2024-05-01&to=2024-05-30" style={{color: '#65f780'}}>Brittany Chiang</a>for the design 🙏</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
@@ -120,7 +121,6 @@ const Footer = () => {
               </span>
             </div>
           )}
-        </a>
       </StyledCredit>
     </StyledFooter>
   );

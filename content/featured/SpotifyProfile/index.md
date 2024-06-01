@@ -1,15 +1,15 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Askpixie'
+cover: './UI1.png'
+github: 'https://github.com/Shrey0610/Askpixie'
+# external: 'https://spotify-profile.herokuapp.com/'
 tech:
   - React
-  - Styled Components
+  - Reflex
   - Express
-  - Spotify API
-  - Heroku
+  - Gemini API
+  - Pillow (PIL)
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+AskPixie is a comprehensive educational platform designed to facilitate seamless learning experiences for students. Built entirely using Python, it leverages Google's Gemini API to offer a wide array of features and functionalities. Users can delve into various subjects and topics, accessing reference links, detailed introductions, and practical examples. One of its standout features is the ability to upload images for precise topic-based answers, enhancing learning efficiency. 

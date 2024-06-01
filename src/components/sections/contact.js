@@ -18,12 +18,12 @@ const StyledContactSection = styled.section`
     margin-bottom: 20px;
     color: var(--green);
     font-family: var(--font-mono);
-    font-size: var(--fz-md);
+    font-size: var(--fz);
     font-weight: 400;
 
     &:before {
       bottom: 0;
-      font-size: var(--fz-sm);
+      font-size: var(--fz);
     }
 
     &:after {

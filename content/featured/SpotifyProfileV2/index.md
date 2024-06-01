@@ -1,16 +1,21 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+title: 'Serene'
+cover: './Screenshot 2023-10-10 at 11.59.03.png'
+# external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - HTML
+  - CSS
+  - Spirit-Master Simulation
+  - JS
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+The "Serene Initiative" project is centered around the creation of an online platform designed
+to offer calmness, relaxation, and stress-relief resources to users.
 
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+This project aims to create an innovative platform that
+leverages ancient wisdom, modern technology, and immersive experiences to
+promote mind-body wellness and stress relief. It seeks to provide users with a unique
+and transformative journey towards tranquility, holistic health, and harnessing the
+power of the subconscious mind.

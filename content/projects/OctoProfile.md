@@ -1,8 +1,8 @@
 ---
 date: '2019-07-15'
-title: 'OctoProfile'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+title: 'apiweek of GWH by MLH'
+external: 'https://github.com/Shrey0610/apiweek-webdevelopment'
+# github: 'https://octoprofile.now.sh'
 tech:
   - Next.js
   - Chart.js
