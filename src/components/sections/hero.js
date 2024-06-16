@@ -77,7 +77,7 @@ const Hero = () => {
       href="https://theartenchantment.notion.site/The-Art-Enchantment-27e24f19ca314e22bdcc045d6402c3ee"
       target="_blank"
       rel="noreferrer">
-      Check out my Artwork!
+      Check out my Artworks!
     </a>
   );
 
