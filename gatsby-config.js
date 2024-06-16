@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: 'Shrey 👨🏻‍💻',
     description:
-      'Shrey Shah is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/Screenshot 2024-06-04 at 16.05.35.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@Shrey0610',
+    image: '/og.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,15 +26,7 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'static/favicons/favicon.ico',
-        icons: [
-          {
-            src: `public/favicons/apple-touch-icon-180x180.png`,
-            sizes: `180x180`,
-            type: `image/png`,
-          },
-          // Add more sizes if needed
-        ],
+        icon: 'src/images/s.png',
       },
     },
     `gatsby-plugin-offline`,
